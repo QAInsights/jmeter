@@ -11,8 +11,8 @@ This repository contains a Dockerfile for a lightweight Apache JMeter image. The
 
 ## Image Size
 
-- Compressed Size: 153.15 MB
-- Uncompressed Size: 240.55 MB
+- Compressed Size: 165.61 MB
+- Uncompressed Size: 264.48 MB
 
 ## Basic Usage
 
