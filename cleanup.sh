@@ -1,8 +1,10 @@
 #!/bin/sh
 echo "Cleaning Up ..."
-rm -rf /opt/apache/apache-jmeter-${JMETER_VERSION}/LICENSE
-rm -rf /opt/apache/apache-jmeter-${JMETER_VERSION}/NOTICE
-rm -rf /opt/apache/apache-jmeter-${JMETER_VERSION}/README.md
-rm -rf /opt/apache/apache-jmeter-${JMETER_VERSION}/licenses
-rm -rf /opt/apache/apache-jmeter-${JMETER_VERSION}/printable_docs
-rm -rf /opt/apache/apache-jmeter-${JMETER_VERSION}/docs
+rm -rf  ${JMETER_HOME}/LICENSE \
+        ${JMETER_HOME}/NOTICE \
+        ${JMETER_HOME}/README.md \
+        ${JMETER_HOME}/licenses \
+        ${JMETER_HOME}/printable_docs \
+        ${JMETER_HOME}/docs \
+        /var/lib/{apt,dpkg,cache,log}/*
+echo "Cleaning Done."
